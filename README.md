@@ -8,8 +8,8 @@ public class SobreMim {
   String nome = "Lucas Ferreira Nogueira";
   int idade = 29;
   Desenvolvedor area = Desenvolvedor.FullStack;
-  String[] trabalhoeEstudo = {"CTD - Certified Tech Developer - Digital House", 
-  "ONE - Oracle Next Education - Oracle e Alura"};
+  String[] trabalhoeEstudo = {"CTD - Certified Tech Developer - 
+  Digital House", "ONE - Oracle Next Education - Oracle e Alura"};
   String local = "São Paulo/SP";
 }
 ```
