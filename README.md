@@ -1,7 +1,8 @@
 
-<img align="right" width="330" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" />
 
-```js
+<img align="right" width="200" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" />
+
+```java
 import com.github.domain.Desenvolvedor;
 
 public class SobreMim {
@@ -13,3 +14,11 @@ public class SobreMim {
   String local = "São Paulo/SP";
 }
 ```
+
+### :rocket: Minhas Skills
+
+#### Linguagens, frameworks, bibliotecas:
+
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original-wordmark.svg" />
+
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
