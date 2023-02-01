@@ -1,6 +1,6 @@
 
 
-<img align="right" width="200" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" />
+<img align="right" width="250" height="200" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" />
 
 ```java
 import com.github.domain.Desenvolvedor;
@@ -19,6 +19,6 @@ public class SobreMim {
 
 #### Linguagens, frameworks, bibliotecas:
 
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original-wordmark.svg" />
+<img   width="50" height="50"  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original-wordmark.svg" />
 
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+<img width="50" height="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
