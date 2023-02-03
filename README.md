@@ -47,4 +47,3 @@ public class SobreMim {
 #### :earth_americas: &nbsp;Onde me encontrar:
 [![Meu Linkedin](https://img.shields.io/badge/-Lucas_Ferreira_Nogueira-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/lucas-ferreira-nogueira/)](https://www.linkedin.com/in/lucas-ferreira-nogueira/)
 [![Outlook Badge](https://img.shields.io/badge/lucas.ferreiranogueira@outlook.com-0078D4?style=flat-square&logo=microsoft-outlook&logoColor=white)](mailto:lucas.ferreiranogueira@outlook.com)
-[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=flat-square&logo=github&logoColor=white)](https://github.com/RudeBoyOne)
