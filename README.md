@@ -10,7 +10,9 @@ public class SobreMim {
   int idade = 29;
   Desenvolvedor area = Desenvolvedor.Backend;
   String[] trabalhoeEstudo = {"CTD - Certified Tech Developer - 
-  Digital House", "ONE - Oracle Next Education - Oracle e Alura", "ESR - Especialista Spring Rest - AlgaWorks", "Escola da Nuvem - AWS};
+  Digital House", "ONE - Oracle Next Education - Oracle e Alura", 
+  "ESR - Especialista Spring Rest - AlgaWorks", 
+  "Escola da Nuvem - AWS};
   String local = "São Paulo/SP";
 }
 ```
