@@ -1,6 +1,6 @@
 
 
-<img align="right" width="300" height="230" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" />
+<img align="right" width="300" height="300" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" />
 
 ```js
 import com.github.domain.Desenvolvedor;
