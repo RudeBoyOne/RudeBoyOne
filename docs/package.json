@@ -1,0 +1,33 @@
+{
+  "name": "docs",
+  "version": "1.0.0",
+  "description": "criação do meu portfólio profissional",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "./assets/js/config/bs-config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RudeBoyOne/RudeBoyOne.git"
+  },
+  "keywords": [
+    "portfólio",
+    "professional",
+    "back-end",
+    "developer"
+  ],
+  "author": "Lucas Ferreira Nogueira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RudeBoyOne/RudeBoyOne/issues"
+  },
+  "homepage": "https://github.com/RudeBoyOne/RudeBoyOne#readme",
+  "devDependencies": {
+    "browser-sync": "^2.29.3"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.0",
+    "bootstrap-icons": "^1.10.5",
+    "normalize.css": "^8.0.1"
+  }
+}
