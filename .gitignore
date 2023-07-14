@@ -1,3 +1,9 @@
-# ignorando diretórios que são outros repositórios
-app-entregas/
-docs/node_modules/
+# Ignorar todo o conteúdo do diretório
+/*
+
+# Não ignorar o subdiretório específico
+!/docs/
+
+!package-lock.json
+
+!package.json
