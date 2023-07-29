@@ -4,27 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-</head>
+<script defer src="bundle.js"></script></head>
 <body>
     <header>
-
+        <img id="myImage" src="" alt="homem de caimseta amarela sorrindo" >
+        <ul class="nav nav-underline justify-content-center">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Projetos</a>
+            </li>
+          </ul>
     </header>
     <main>
-        <p id="firstParagraphy">Oi &#x1F44B eu sou o lucas</p>
-        <h2 class="display-1">Back-end</h2>
-        <div class="d-flex align-items-end">
-            <h2 class="display-1">Developer</h2>
-            <a href="https://www.linkedin.com/in/lucas-ferreira-nogueira/" target="_blank" rel="noopener noreferrer" data-bs-toggle="tooltip" data-bs-title="Default tooltip">
-                <i class="bi bi-linkedin mx-1"></i>
-            </a>
-            <a href="https://github.com/RudeBoyOne" target="_blank" rel="noopener noreferrer">
-                <i class="bi bi-github mx-1"></i>
-            </a>
-            <a href="../assets/files/CV - Lucas.Nogueira.pdf" download="CV - Lucas.Nogueira.pdf">
-                <i class="bi bi-file-earmark-arrow-down-fill mx-1"></i>
-            </a>
+        <div id="containerHome">
+            <p id="firstParagraphy">Oi &#x1F44B eu sou o lucas</p>
+            <h2 class="display-1">Back-end</h2>
+            <div class="d-flex align-items-end">
+                <h2 class="display-1">Developer</h2>
+                <a href="https://www.linkedin.com/in/lucas-ferreira-nogueira/" target="_blank" rel="noopener noreferrer">
+                    <i data-bs-toggle="tooltip" data-bs-title="Linkedin" class="bi bi-linkedin mx-1"></i>
+                </a>
+                <a href="https://github.com/RudeBoyOne" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github mx-1"></i>
+                </a>
+                <a href="./assets/files/CV - Lucas.Nogueira.pdf" download="CV - Lucas.Nogueira.pdf">
+                    <i class="bi bi-file-earmark-arrow-down-fill mx-1"></i>
+                </a>
+            </div>
+            <p id="paragraphyPrincipal">Tenho 29 anos sou desenvolvedor back-end java, adoro desenvolver API's REST e micro serviços utilizando do SpringBoot e Quarkus, possuo mais de 1 ano de experiência como desenvolvedor freelancer</p>
         </div>
-        <p>Tenho 29 anos sou desenvolvedor back-end java, adoro desenvolver API's REST e micro serviços, e possuo mais de 1 ano de experiência como freelancer</p>
     </main>
     <footer>
 

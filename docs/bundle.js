@@ -38,7 +38,18 @@ eval("\n\nmodule.exports = ({onlyFirst = false} = {}) => {\n\tconst pattern = [\
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var normalize_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! normalize.css */ \"./node_modules/normalize.css/normalize.css\");\n/* harmony import */ var bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! bootstrap/dist/css/bootstrap.min.css */ \"./node_modules/bootstrap/dist/css/bootstrap.min.css\");\n/* harmony import */ var bootstrap_icons_font_bootstrap_icons_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! bootstrap-icons/font/bootstrap-icons.css */ \"./node_modules/bootstrap-icons/font/bootstrap-icons.css\");\n/* harmony import */ var _css_main_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../css/main.css */ \"./src/css/main.css\");\n/* harmony import */ var bootstrap_dist_js_bootstrap_bundle_min_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! bootstrap/dist/js/bootstrap.bundle.min.js */ \"./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js\");\n/* harmony import */ var bootstrap_dist_js_bootstrap_bundle_min_js__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(bootstrap_dist_js_bootstrap_bundle_min_js__WEBPACK_IMPORTED_MODULE_4__);\n/* harmony import */ var _myjs__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./myjs */ \"./src/js/myjs.js\");\n/* harmony import */ var _myjs__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_myjs__WEBPACK_IMPORTED_MODULE_5__);\n\n\n\n\n\n\n\n//# sourceURL=webpack://docs/./src/js/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var normalize_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! normalize.css */ \"./node_modules/normalize.css/normalize.css\");\n/* harmony import */ var bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! bootstrap/dist/css/bootstrap.min.css */ \"./node_modules/bootstrap/dist/css/bootstrap.min.css\");\n/* harmony import */ var bootstrap_icons_font_bootstrap_icons_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! bootstrap-icons/font/bootstrap-icons.css */ \"./node_modules/bootstrap-icons/font/bootstrap-icons.css\");\n/* harmony import */ var _css_main_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../css/main.css */ \"./src/css/main.css\");\n/* harmony import */ var bootstrap_dist_js_bootstrap_bundle_min_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! bootstrap/dist/js/bootstrap.bundle.min.js */ \"./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js\");\n/* harmony import */ var bootstrap_dist_js_bootstrap_bundle_min_js__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(bootstrap_dist_js_bootstrap_bundle_min_js__WEBPACK_IMPORTED_MODULE_4__);\n/* harmony import */ var _myjs__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./myjs */ \"./src/js/myjs.js\");\n/* harmony import */ var _myjs__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_myjs__WEBPACK_IMPORTED_MODULE_5__);\n/* harmony import */ var _loadingImages__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./loadingImages */ \"./src/js/loadingImages.js\");\n\n\n\n\n\n\n\n\n//# sourceURL=webpack://docs/./src/js/index.js?");
+
+/***/ }),
+
+/***/ "./src/js/loadingImages.js":
+/*!*********************************!*\
+  !*** ./src/js/loadingImages.js ***!
+  \*********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _assets_imgs_Profile_SemFundo_png__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../assets/imgs/Profile-SemFundo.png */ \"./src/assets/imgs/Profile-SemFundo.png\");\n\n// carregamento imagem do perfil\nvar imagePerfil = document.getElementById('myImage');\nimagePerfil.src = _assets_imgs_Profile_SemFundo_png__WEBPACK_IMPORTED_MODULE_0__[\"default\"];\n\n//# sourceURL=webpack://docs/./src/js/loadingImages.js?");
 
 /***/ }),
 
@@ -48,7 +59,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var norm
   \************************/
 /***/ (() => {
 
-eval("function _toConsumableArray(arr) { return _arrayWithoutHoles(arr) || _iterableToArray(arr) || _unsupportedIterableToArray(arr) || _nonIterableSpread(); }\nfunction _nonIterableSpread() { throw new TypeError(\"Invalid attempt to spread non-iterable instance.\\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.\"); }\nfunction _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === \"string\") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === \"Object\" && o.constructor) n = o.constructor.name; if (n === \"Map\" || n === \"Set\") return Array.from(o); if (n === \"Arguments\" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }\nfunction _iterableToArray(iter) { if (typeof Symbol !== \"undefined\" && iter[Symbol.iterator] != null || iter[\"@@iterator\"] != null) return Array.from(iter); }\nfunction _arrayWithoutHoles(arr) { if (Array.isArray(arr)) return _arrayLikeToArray(arr); }\nfunction _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) arr2[i] = arr[i]; return arr2; }\nvar tooltipTriggerList = document.querySelectorAll('[data-bs-toggle=\"tooltip\"]');\nvar tooltipList = _toConsumableArray(tooltipTriggerList).map(function (tooltipTriggerEl) {\n  return new bootstrap.Tooltip(tooltipTriggerEl);\n});\n\n//# sourceURL=webpack://docs/./src/js/myjs.js?");
+eval("// responsiveness\nfunction applyResponsiveness() {\n  // Obtém a largura da janela do navegador\n  var width = window.innerWidth;\n  var containerHome = document.getElementById(\"containerHome\");\n  if (width > 1200) {\n    containerHome.style.alignSelf = \"center\";\n    containerHome.style.width = \"36%\";\n  }\n}\nwindow.addEventListener('resize', applyResponsiveness);\napplyResponsiveness();\n\n//# sourceURL=webpack://docs/./src/js/myjs.js?");
 
 /***/ }),
 
@@ -113,7 +124,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/getUrl.js */ \"./node_modules/css-loader/dist/runtime/getUrl.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__);\n// Imports\n\n\n\nvar ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! ../../assets/fonts/Arimo/static/Arimo-Regular.ttf */ \"./assets/fonts/Arimo/static/Arimo-Regular.ttf\"), __webpack_require__.b);\nvar ___CSS_LOADER_URL_IMPORT_1___ = new URL(/* asset import */ __webpack_require__(/*! ../../assets/fonts/Arimo/static/Arimo-Bold.ttf */ \"./assets/fonts/Arimo/static/Arimo-Bold.ttf\"), __webpack_require__.b);\nvar ___CSS_LOADER_URL_IMPORT_2___ = new URL(/* asset import */ __webpack_require__(/*! ../../assets/fonts/Arimo/static/Arimo-BoldItalic.ttf */ \"./assets/fonts/Arimo/static/Arimo-BoldItalic.ttf\"), __webpack_require__.b);\nvar ___CSS_LOADER_URL_IMPORT_3___ = new URL(/* asset import */ __webpack_require__(/*! ../../assets/fonts/Arimo/static/Arimo-Italic.ttf */ \"./assets/fonts/Arimo/static/Arimo-Italic.ttf\"), __webpack_require__.b);\nvar ___CSS_LOADER_URL_IMPORT_4___ = new URL(/* asset import */ __webpack_require__(/*! ../../assets/fonts/Arimo/static/Arimo-Medium.ttf */ \"./assets/fonts/Arimo/static/Arimo-Medium.ttf\"), __webpack_require__.b);\nvar ___CSS_LOADER_URL_IMPORT_5___ = new URL(/* asset import */ __webpack_require__(/*! ../../assets/fonts/Arimo/static/Arimo-MediumItalic.ttf */ \"./assets/fonts/Arimo/static/Arimo-MediumItalic.ttf\"), __webpack_require__.b);\nvar ___CSS_LOADER_URL_IMPORT_6___ = new URL(/* asset import */ __webpack_require__(/*! ../../assets/fonts/Arimo/static/Arimo-SemiBoldItalic.ttf */ \"./assets/fonts/Arimo/static/Arimo-SemiBoldItalic.ttf\"), __webpack_require__.b);\nvar ___CSS_LOADER_URL_IMPORT_7___ = new URL(/* asset import */ __webpack_require__(/*! ../../assets/fonts/Arimo/static/Arimo-SemiBold.ttf */ \"./assets/fonts/Arimo/static/Arimo-SemiBold.ttf\"), __webpack_require__.b);\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\nvar ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);\nvar ___CSS_LOADER_URL_REPLACEMENT_1___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_1___);\nvar ___CSS_LOADER_URL_REPLACEMENT_2___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_2___);\nvar ___CSS_LOADER_URL_REPLACEMENT_3___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_3___);\nvar ___CSS_LOADER_URL_REPLACEMENT_4___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_4___);\nvar ___CSS_LOADER_URL_REPLACEMENT_5___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_5___);\nvar ___CSS_LOADER_URL_REPLACEMENT_6___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_6___);\nvar ___CSS_LOADER_URL_REPLACEMENT_7___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_7___);\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, `@font-face {\n    font-family: 'Arimo';\n    src: url(${___CSS_LOADER_URL_REPLACEMENT_0___});\n    font-weight: normal;\n    font-style: normal;\n}\n\n@font-face {\n    font-family: 'Arimo';\n    src: url(${___CSS_LOADER_URL_REPLACEMENT_1___});\n    font-weight: bold;\n    font-style: normal;\n}\n\n@font-face {\n    font-family: 'Arimo';\n    src: url(${___CSS_LOADER_URL_REPLACEMENT_2___});\n    font-weight: bold;\n    font-style: italic;\n}\n\n@font-face {\n    font-family: 'Arimo';\n    src: url(${___CSS_LOADER_URL_REPLACEMENT_3___});\n    font-weight: normal;\n    font-style: italic;\n}\n\n@font-face {\n    font-family: 'Arimo';\n    src: url(${___CSS_LOADER_URL_REPLACEMENT_4___});\n    font-weight: 500;\n    font-style: normal;\n}\n\n@font-face {\n    font-family: 'Arimo';\n    src: url(${___CSS_LOADER_URL_REPLACEMENT_5___});\n    font-weight: 500;\n    font-style: normal;\n}\n\n@font-face {\n    font-family: 'Arimo';\n    src: url(${___CSS_LOADER_URL_REPLACEMENT_6___});\n    font-weight: 600;\n    font-style: italic;\n}\n\n@font-face {\n    font-family: 'Arimo';\n    src: url(${___CSS_LOADER_URL_REPLACEMENT_7___});\n    font-weight: 600;\n    font-style: normal;\n}`, \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://docs/./src/css/fonts.css?./node_modules/css-loader/dist/cjs.js");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/getUrl.js */ \"./node_modules/css-loader/dist/runtime/getUrl.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__);\n// Imports\n\n\n\nvar ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! ../assets/fonts/Arimo/static/Arimo-Regular.ttf */ \"./src/assets/fonts/Arimo/static/Arimo-Regular.ttf\"), __webpack_require__.b);\nvar ___CSS_LOADER_URL_IMPORT_1___ = new URL(/* asset import */ __webpack_require__(/*! ../assets/fonts/Arimo/static/Arimo-Bold.ttf */ \"./src/assets/fonts/Arimo/static/Arimo-Bold.ttf\"), __webpack_require__.b);\nvar ___CSS_LOADER_URL_IMPORT_2___ = new URL(/* asset import */ __webpack_require__(/*! ../assets/fonts/Arimo/static/Arimo-BoldItalic.ttf */ \"./src/assets/fonts/Arimo/static/Arimo-BoldItalic.ttf\"), __webpack_require__.b);\nvar ___CSS_LOADER_URL_IMPORT_3___ = new URL(/* asset import */ __webpack_require__(/*! ../assets/fonts/Arimo/static/Arimo-Italic.ttf */ \"./src/assets/fonts/Arimo/static/Arimo-Italic.ttf\"), __webpack_require__.b);\nvar ___CSS_LOADER_URL_IMPORT_4___ = new URL(/* asset import */ __webpack_require__(/*! ../assets/fonts/Arimo/static/Arimo-Medium.ttf */ \"./src/assets/fonts/Arimo/static/Arimo-Medium.ttf\"), __webpack_require__.b);\nvar ___CSS_LOADER_URL_IMPORT_5___ = new URL(/* asset import */ __webpack_require__(/*! ../assets/fonts/Arimo/static/Arimo-MediumItalic.ttf */ \"./src/assets/fonts/Arimo/static/Arimo-MediumItalic.ttf\"), __webpack_require__.b);\nvar ___CSS_LOADER_URL_IMPORT_6___ = new URL(/* asset import */ __webpack_require__(/*! ../assets/fonts/Arimo/static/Arimo-SemiBoldItalic.ttf */ \"./src/assets/fonts/Arimo/static/Arimo-SemiBoldItalic.ttf\"), __webpack_require__.b);\nvar ___CSS_LOADER_URL_IMPORT_7___ = new URL(/* asset import */ __webpack_require__(/*! ../assets/fonts/Arimo/static/Arimo-SemiBold.ttf */ \"./src/assets/fonts/Arimo/static/Arimo-SemiBold.ttf\"), __webpack_require__.b);\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\nvar ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);\nvar ___CSS_LOADER_URL_REPLACEMENT_1___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_1___);\nvar ___CSS_LOADER_URL_REPLACEMENT_2___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_2___);\nvar ___CSS_LOADER_URL_REPLACEMENT_3___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_3___);\nvar ___CSS_LOADER_URL_REPLACEMENT_4___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_4___);\nvar ___CSS_LOADER_URL_REPLACEMENT_5___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_5___);\nvar ___CSS_LOADER_URL_REPLACEMENT_6___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_6___);\nvar ___CSS_LOADER_URL_REPLACEMENT_7___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_7___);\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, `@font-face {\n    font-family: 'Arimo';\n    src: url(${___CSS_LOADER_URL_REPLACEMENT_0___});\n    font-weight: normal;\n    font-style: normal;\n}\n\n@font-face {\n    font-family: 'Arimo';\n    src: url(${___CSS_LOADER_URL_REPLACEMENT_1___});\n    font-weight: bold;\n    font-style: normal;\n}\n\n@font-face {\n    font-family: 'Arimo';\n    src: url(${___CSS_LOADER_URL_REPLACEMENT_2___});\n    font-weight: bold;\n    font-style: italic;\n}\n\n@font-face {\n    font-family: 'Arimo';\n    src: url(${___CSS_LOADER_URL_REPLACEMENT_3___});\n    font-weight: normal;\n    font-style: italic;\n}\n\n@font-face {\n    font-family: 'Arimo';\n    src: url(${___CSS_LOADER_URL_REPLACEMENT_4___});\n    font-weight: 500;\n    font-style: normal;\n}\n\n@font-face {\n    font-family: 'Arimo';\n    src: url(${___CSS_LOADER_URL_REPLACEMENT_5___});\n    font-weight: 500;\n    font-style: normal;\n}\n\n@font-face {\n    font-family: 'Arimo';\n    src: url(${___CSS_LOADER_URL_REPLACEMENT_6___});\n    font-weight: 600;\n    font-style: italic;\n}\n\n@font-face {\n    font-family: 'Arimo';\n    src: url(${___CSS_LOADER_URL_REPLACEMENT_7___});\n    font-weight: 600;\n    font-style: normal;\n}`, \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://docs/./src/css/fonts.css?./node_modules/css-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -124,7 +135,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _node_modules_css_loader_dist_cjs_js_fonts_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! -!../../node_modules/css-loader/dist/cjs.js!./fonts.css */ \"./node_modules/css-loader/dist/cjs.js!./src/css/fonts.css\");\n/* harmony import */ var _node_modules_css_loader_dist_cjs_js_cores_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! -!../../node_modules/css-loader/dist/cjs.js!./cores.css */ \"./node_modules/css-loader/dist/cjs.js!./src/css/cores.css\");\n// Imports\n\n\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n___CSS_LOADER_EXPORT___.i(_node_modules_css_loader_dist_cjs_js_fonts_css__WEBPACK_IMPORTED_MODULE_2__[\"default\"]);\n___CSS_LOADER_EXPORT___.i(_node_modules_css_loader_dist_cjs_js_cores_css__WEBPACK_IMPORTED_MODULE_3__[\"default\"]);\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, `*{\n    font-family: 'Arimo', sans-serif;\n}\n\nbody{\n    background-color: var(--cinza-clarinho);\n    height: 100vh;\n    display: flex;\n    align-items: center;\n}\n\nh1{\n    font-size: xx-large;\n    font-weight: bolder;\n}\n\n#firstParagraphy{\n    margin: 0 0 0 4px;\n    color: var(--cinza-azulado);\n    font-weight: 700;\n\n}\n\n.display-1{\n    line-height: 0.7;\n    font-weight: 700;\n}\n\ni{\n    color: var(--cinza-azulado);\n    font-size: 1.3em;\n}`, \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://docs/./src/css/main.css?./node_modules/css-loader/dist/cjs.js");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _node_modules_css_loader_dist_cjs_js_fonts_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! -!../../node_modules/css-loader/dist/cjs.js!./fonts.css */ \"./node_modules/css-loader/dist/cjs.js!./src/css/fonts.css\");\n/* harmony import */ var _node_modules_css_loader_dist_cjs_js_cores_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! -!../../node_modules/css-loader/dist/cjs.js!./cores.css */ \"./node_modules/css-loader/dist/cjs.js!./src/css/cores.css\");\n// Imports\n\n\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n___CSS_LOADER_EXPORT___.i(_node_modules_css_loader_dist_cjs_js_fonts_css__WEBPACK_IMPORTED_MODULE_2__[\"default\"]);\n___CSS_LOADER_EXPORT___.i(_node_modules_css_loader_dist_cjs_js_cores_css__WEBPACK_IMPORTED_MODULE_3__[\"default\"]);\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, `*{\n    font-family: 'Arimo', sans-serif;\n}\n\nheader{\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    gap: 10px;\n}\n\n#myImage{\n    width: 200px;\n}\n\n.nav{\n    gap: 40px;\n}\n\n.nav-link{\n    font-size: xx-large;\n    font-weight: bolder;\n    color: var(--cinza-azulado);\n}\n\n.nav-link:hover {\n    color: var(--cinza-escuro) !important;\n}\n\n.nav-link:focus {\n    color: var(--cinza-escuro) !important;\n}\n\n\n\nbody{\n    background-color: var(--cinza-clarinho);\n    height: 100vh;\n    display: flex;\n    /* align-items: center; */\n    flex-direction: column;\n    justify-content: space-around;\n}\n\nmain{\n    display: flex;\n    justify-content: center;\n}\n\n.containerHome{\n    align-self: center;\n    width: 36%;\n}\n\nh1{\n    font-size: xx-large;\n    font-weight: bolder;\n}\n\n#firstParagraphy{\n    margin: 0 0 0 4px;\n    color: var(--cinza-azulado);\n    font-weight: 700;\n\n}\n\n.display-1{\n    line-height: 0.7;\n    font-weight: 700;\n}\n\ni{\n    color: var(--cinza-azulado);\n    font-size: 1.3em;\n}\n\n#paragraphyPrincipal{\n    text-align: justify;\n}`, \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://docs/./src/css/main.css?./node_modules/css-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -158,6 +169,17 @@ eval("\n\nmodule.exports = function (url, options) {\n  if (!options) {\n    opt
 
 "use strict";
 eval("\n\nmodule.exports = function (i) {\n  return i[1];\n};\n\n//# sourceURL=webpack://docs/./node_modules/css-loader/dist/runtime/noSourceMaps.js?");
+
+/***/ }),
+
+/***/ "./src/assets/imgs/Profile-SemFundo.png":
+/*!**********************************************!*\
+  !*** ./src/assets/imgs/Profile-SemFundo.png ***!
+  \**********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"b68d52ec316639fea123db96f0c79a09.png\");\n\n//# sourceURL=webpack://docs/./src/assets/imgs/Profile-SemFundo.png?");
 
 /***/ }),
 
@@ -565,94 +587,6 @@ eval("module.exports = \"data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/20
 
 /***/ }),
 
-/***/ "./assets/fonts/Arimo/static/Arimo-Bold.ttf":
-/*!**************************************************!*\
-  !*** ./assets/fonts/Arimo/static/Arimo-Bold.ttf ***!
-  \**************************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-eval("module.exports = __webpack_require__.p + \"7b7636b299316b91b95a.ttf\";\n\n//# sourceURL=webpack://docs/./assets/fonts/Arimo/static/Arimo-Bold.ttf?");
-
-/***/ }),
-
-/***/ "./assets/fonts/Arimo/static/Arimo-BoldItalic.ttf":
-/*!********************************************************!*\
-  !*** ./assets/fonts/Arimo/static/Arimo-BoldItalic.ttf ***!
-  \********************************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-eval("module.exports = __webpack_require__.p + \"094e01312767e56055f5.ttf\";\n\n//# sourceURL=webpack://docs/./assets/fonts/Arimo/static/Arimo-BoldItalic.ttf?");
-
-/***/ }),
-
-/***/ "./assets/fonts/Arimo/static/Arimo-Italic.ttf":
-/*!****************************************************!*\
-  !*** ./assets/fonts/Arimo/static/Arimo-Italic.ttf ***!
-  \****************************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-eval("module.exports = __webpack_require__.p + \"09af9e3978e2e5dac3b6.ttf\";\n\n//# sourceURL=webpack://docs/./assets/fonts/Arimo/static/Arimo-Italic.ttf?");
-
-/***/ }),
-
-/***/ "./assets/fonts/Arimo/static/Arimo-Medium.ttf":
-/*!****************************************************!*\
-  !*** ./assets/fonts/Arimo/static/Arimo-Medium.ttf ***!
-  \****************************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-eval("module.exports = __webpack_require__.p + \"70607006b9b30549511b.ttf\";\n\n//# sourceURL=webpack://docs/./assets/fonts/Arimo/static/Arimo-Medium.ttf?");
-
-/***/ }),
-
-/***/ "./assets/fonts/Arimo/static/Arimo-MediumItalic.ttf":
-/*!**********************************************************!*\
-  !*** ./assets/fonts/Arimo/static/Arimo-MediumItalic.ttf ***!
-  \**********************************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-eval("module.exports = __webpack_require__.p + \"cd221eaa990de7d8f61e.ttf\";\n\n//# sourceURL=webpack://docs/./assets/fonts/Arimo/static/Arimo-MediumItalic.ttf?");
-
-/***/ }),
-
-/***/ "./assets/fonts/Arimo/static/Arimo-Regular.ttf":
-/*!*****************************************************!*\
-  !*** ./assets/fonts/Arimo/static/Arimo-Regular.ttf ***!
-  \*****************************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-eval("module.exports = __webpack_require__.p + \"ae89d5b5729d2e56f67a.ttf\";\n\n//# sourceURL=webpack://docs/./assets/fonts/Arimo/static/Arimo-Regular.ttf?");
-
-/***/ }),
-
-/***/ "./assets/fonts/Arimo/static/Arimo-SemiBold.ttf":
-/*!******************************************************!*\
-  !*** ./assets/fonts/Arimo/static/Arimo-SemiBold.ttf ***!
-  \******************************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-eval("module.exports = __webpack_require__.p + \"125aa4c8508849217eb1.ttf\";\n\n//# sourceURL=webpack://docs/./assets/fonts/Arimo/static/Arimo-SemiBold.ttf?");
-
-/***/ }),
-
-/***/ "./assets/fonts/Arimo/static/Arimo-SemiBoldItalic.ttf":
-/*!************************************************************!*\
-  !*** ./assets/fonts/Arimo/static/Arimo-SemiBoldItalic.ttf ***!
-  \************************************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-eval("module.exports = __webpack_require__.p + \"4614853fbfd7f1f6446f.ttf\";\n\n//# sourceURL=webpack://docs/./assets/fonts/Arimo/static/Arimo-SemiBoldItalic.ttf?");
-
-/***/ }),
-
 /***/ "./node_modules/bootstrap-icons/font/fonts/bootstrap-icons.woff2?1fa40e8900654d2863d011707b9fb6f2":
 /*!********************************************************************************************************!*\
   !*** ./node_modules/bootstrap-icons/font/fonts/bootstrap-icons.woff2?1fa40e8900654d2863d011707b9fb6f2 ***!
@@ -672,6 +606,94 @@ eval("module.exports = __webpack_require__.p + \"6d63d0501e5ed7b79dab.woff2?1fa4
 
 "use strict";
 eval("module.exports = __webpack_require__.p + \"4753c5ba57962b4d7bf8.woff?1fa40e8900654d2863d011707b9fb6f2\";\n\n//# sourceURL=webpack://docs/./node_modules/bootstrap-icons/font/fonts/bootstrap-icons.woff?");
+
+/***/ }),
+
+/***/ "./src/assets/fonts/Arimo/static/Arimo-Bold.ttf":
+/*!******************************************************!*\
+  !*** ./src/assets/fonts/Arimo/static/Arimo-Bold.ttf ***!
+  \******************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"7b7636b299316b91b95a.ttf\";\n\n//# sourceURL=webpack://docs/./src/assets/fonts/Arimo/static/Arimo-Bold.ttf?");
+
+/***/ }),
+
+/***/ "./src/assets/fonts/Arimo/static/Arimo-BoldItalic.ttf":
+/*!************************************************************!*\
+  !*** ./src/assets/fonts/Arimo/static/Arimo-BoldItalic.ttf ***!
+  \************************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"094e01312767e56055f5.ttf\";\n\n//# sourceURL=webpack://docs/./src/assets/fonts/Arimo/static/Arimo-BoldItalic.ttf?");
+
+/***/ }),
+
+/***/ "./src/assets/fonts/Arimo/static/Arimo-Italic.ttf":
+/*!********************************************************!*\
+  !*** ./src/assets/fonts/Arimo/static/Arimo-Italic.ttf ***!
+  \********************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"09af9e3978e2e5dac3b6.ttf\";\n\n//# sourceURL=webpack://docs/./src/assets/fonts/Arimo/static/Arimo-Italic.ttf?");
+
+/***/ }),
+
+/***/ "./src/assets/fonts/Arimo/static/Arimo-Medium.ttf":
+/*!********************************************************!*\
+  !*** ./src/assets/fonts/Arimo/static/Arimo-Medium.ttf ***!
+  \********************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"70607006b9b30549511b.ttf\";\n\n//# sourceURL=webpack://docs/./src/assets/fonts/Arimo/static/Arimo-Medium.ttf?");
+
+/***/ }),
+
+/***/ "./src/assets/fonts/Arimo/static/Arimo-MediumItalic.ttf":
+/*!**************************************************************!*\
+  !*** ./src/assets/fonts/Arimo/static/Arimo-MediumItalic.ttf ***!
+  \**************************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"cd221eaa990de7d8f61e.ttf\";\n\n//# sourceURL=webpack://docs/./src/assets/fonts/Arimo/static/Arimo-MediumItalic.ttf?");
+
+/***/ }),
+
+/***/ "./src/assets/fonts/Arimo/static/Arimo-Regular.ttf":
+/*!*********************************************************!*\
+  !*** ./src/assets/fonts/Arimo/static/Arimo-Regular.ttf ***!
+  \*********************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"ae89d5b5729d2e56f67a.ttf\";\n\n//# sourceURL=webpack://docs/./src/assets/fonts/Arimo/static/Arimo-Regular.ttf?");
+
+/***/ }),
+
+/***/ "./src/assets/fonts/Arimo/static/Arimo-SemiBold.ttf":
+/*!**********************************************************!*\
+  !*** ./src/assets/fonts/Arimo/static/Arimo-SemiBold.ttf ***!
+  \**********************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"125aa4c8508849217eb1.ttf\";\n\n//# sourceURL=webpack://docs/./src/assets/fonts/Arimo/static/Arimo-SemiBold.ttf?");
+
+/***/ }),
+
+/***/ "./src/assets/fonts/Arimo/static/Arimo-SemiBoldItalic.ttf":
+/*!****************************************************************!*\
+  !*** ./src/assets/fonts/Arimo/static/Arimo-SemiBoldItalic.ttf ***!
+  \****************************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"4614853fbfd7f1f6446f.ttf\";\n\n//# sourceURL=webpack://docs/./src/assets/fonts/Arimo/static/Arimo-SemiBoldItalic.ttf?");
 
 /***/ })
 
@@ -763,7 +785,7 @@ eval("module.exports = __webpack_require__.p + \"4753c5ba57962b4d7bf8.woff?1fa40
 /******/ 	
 /******/ 	/* webpack/runtime/getFullHash */
 /******/ 	(() => {
-/******/ 		__webpack_require__.h = () => ("778621a695cd91764d68")
+/******/ 		__webpack_require__.h = () => ("708ad2f7c8f65aff7878")
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/global */
