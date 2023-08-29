@@ -15,7 +15,7 @@ public class SobreMim {
         "ESR - Especialista Spring Rest - AlgaWorks", 
         "Escola da Nuvem - AWS
   };
-  Certificacoes badges = {
+  Certificacoes[] badges = {
         "Linux Essentials - Linux Professional Institute (LPI)",
         "AWS Certified Cloud Practitioner"
   }
