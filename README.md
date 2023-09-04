@@ -1,6 +1,6 @@
 
 
-<img align="right" width="300" height="280" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" />
+<img align="right" width="200" height="180" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" />
 
 ```js
 import com.github.domain.Desenvolvedor;
@@ -17,7 +17,7 @@ public class SobreMim {
   };
   Certificacoes[] badges = {
         "Linux Essentials - Linux Professional Institute (LPI)",
-        "AWS Certified Cloud Practitioner"
+        "Certified Cloud Practitioner - AWS"
   }
   String local = "São Paulo/SP";
 }
