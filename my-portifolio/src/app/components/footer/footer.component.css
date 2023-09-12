@@ -1,0 +1,12 @@
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: var(--snowStorm-low);
+    text-align: center;
+    padding: 10px 0;
+}
+.footer a {
+    color: var(--cinza-azulado);
+}

@@ -1,0 +1,17 @@
+@import url('~bootstrap/dist/css/bootstrap.min.css');
+@import url('~bootstrap-icons/font/bootstrap-icons.css');
+@import url('./assets/css/cores.css');
+@import url('./assets/css/fonts.css');
+
+* {
+    font-family: 'Arimo', sans-serif;
+}
+
+html, body {
+    background-color: var(--snowStorm-low);
+    height: 100vh;
+}
+
+main {
+    height: 50vh;
+}

@@ -1,0 +1,9 @@
+:root {
+    --snowStorm-high: rgb(216, 222, 233);
+    --snowStorm-medium: rgb(229, 233, 240);
+    --snowStorm-low: rgb(236, 239, 244);
+    --cinza-dark: rgb(76,86,106);
+    --cinza-medium: rgb(216,222,233);
+    --cinza-clear: rgb(236,239,244);
+    --cinza-azulado: rgb(129, 161, 193);
+}
