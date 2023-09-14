@@ -9,7 +9,7 @@ public class SobreMim {
   String nome = "Lucas Ferreira Nogueira";
   int idade = 29;
   Desenvolvedor area = Desenvolvedor.Backend;
-  String[] trabalhoeEstudo = {
+  String[] coursesAndJobs = {
         "CTD - Certified Tech Developer - Digital House", 
         "ONE - Oracle Next Education - Oracle e Alura", 
         "ESR - Especialista Spring Rest - AlgaWorks", 
