@@ -19,7 +19,7 @@ export class GithubServiceService {
     return this.http.get<user>(this.baseUrl);
   }
 
-  findAllRepositorys(): Observable<repository[]> {
+  findAllRepositories(): Observable<repository[]> {
     return this.http.get<repository[]>(`${this.baseUrl}/repos`);
   }
 
