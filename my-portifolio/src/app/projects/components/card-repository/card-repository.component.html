@@ -1,13 +1,9 @@
-<main class="container">
-    <div class="row row-cols-1 row-cols-md-2 g-4">
-        <div class="col">
-        <div *ngFor="let repository of myRepositories" class="card">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-            <h5 class="card-title"> {{ repository.full_name }}</h5>
-            <p class="card-text">{{ repository.description }}</p>
-            </div>
-        </div>
+<div class="d-inline-flex p-2 d-flex flex-wrap justify-content-around">
+    <div *ngFor="let repository of myRepositories" class="card">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+        <h5 class="card-title"> {{ repository.full_name }}</h5>
+        <p class="card-text">{{ repository.description }}</p>
         </div>
     </div>
-</main>
+</div>
