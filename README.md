@@ -7,9 +7,10 @@ import com.github.domain.Desenvolvedor;
 
 public class SobreMim {
   String nome = "Lucas Ferreira Nogueira";
-  int idade = 29;
+  int idade = 30;
   Desenvolvedor area = Desenvolvedor.Backend;
   String[] coursesAndJobs = {
+        "Fatec - Desenvolvimento de Software Multiplataforma",
         "CTD - Certified Tech Developer - Digital House", 
         "ONE - Oracle Next Education - Oracle e Alura", 
         "ESR - Especialista Spring Rest - AlgaWorks", 
