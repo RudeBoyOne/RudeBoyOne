@@ -10,7 +10,7 @@ public class SobreMim {
   int idade = 30;
   Desenvolvedor area = Desenvolvedor.Backend;
   String[] coursesAndJobs = {
-        "Fatec - Desenvolvimento de Software Multiplataforma",
+        "FATEC - Desenvolvimento de Software Multiplataforma",
         "CTD - Certified Tech Developer - Digital House", 
         "ONE - Oracle Next Education - Oracle e Alura", 
         "ESR - Especialista Spring Rest - AlgaWorks", 
