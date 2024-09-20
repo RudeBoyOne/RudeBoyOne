@@ -1,5 +1,5 @@
-<div class="d-inline-flex p-2 d-flex flex-wrap justify-content-around">
-    <div *ngFor="let repository of myRepositories" class="card">
+<div class="row align-items-start">
+    <div *ngFor="let repository of myRepositories" class="card col-4 h-50">
         <img src="..." class="card-img-top" alt="...">
         <div class="card-body">
         <h5 class="card-title"> {{ repository.full_name }}</h5>
