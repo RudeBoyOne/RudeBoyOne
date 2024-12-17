@@ -1,25 +1,29 @@
-name: Portfolio implementation
+name: 🚀 Deploy Portfolio
 
 on:
   push:
     branches:
       - main
+
 jobs:
   deploy:
+    name: 🎉 Deploy
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout code
-      uses: actions/checkout@v2
+      - name: 🚚 Get latest code
+        uses: actions/checkout@v2
 
-    - name: Set up SSH
-      uses: webfactory/ssh-agent@v0.5.3
-      with:
-        ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
+      - name: 🔐 Set up SSH
+        uses: webfactory/ssh-agent@v0.5.3
+        with:
+          ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
 
-    - name: Deploy application files to server
-      run: |
-        rsync -avz --delete \
-          -e "ssh -o StrictHostKeyChecking=no -p ${{ secrets.SSH_PORT }}" \
-          ./docs/ ${{ secrets.SERVER_USER }}@${{ secrets.SERVER_NAME }}:${{ secrets.DEPLOY_PATH }}
-    - run: echo "🍏 This job's status is ${{ job.status }}."    
+      - name: 📂 Sync files
+        run: |
+          rsync -avz --delete \
+            --exclude '.htaccess' \
+            -e "ssh -o StrictHostKeyChecking=no -p ${{ secrets.SSH_PORT }}" \
+            ./docs/ ${{ secrets.SERVER_USER }}@${{ secrets.SERVER_NAME }}:${{ secrets.DEPLOY_PATH }}
+      - name: 🍏 Job status
+        run: echo "🍏 This job's status is ${{ job.status }}."
