@@ -20,9 +20,12 @@ export class CardRepositoryComponent implements OnInit {
   ngOnInit(): void {
     this.githubService.findAllRepositories().subscribe(
       (repositories) => {
-        this.myRepositories = repositories;
+        this.myRepositories = repositories.map(repository => ({
+            ...repository,
+            full_name: repository.full_name.split('/')[1]
+        }));
       } 
-    )
+    );
   }
   
   
