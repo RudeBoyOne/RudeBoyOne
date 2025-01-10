@@ -27,4 +27,4 @@ jobs:
             -e "ssh -o StrictHostKeyChecking=no -p ${{ secrets.SSH_PORT }}" \
             ./docs/ ${{ secrets.SERVER_USER }}@${{ secrets.SERVER_NAME }}:${{ secrets.DEPLOY_PATH }}
       - name: 🍏 Job status
-        run: echo "🍏 This job's status is ${{ job.status }}."
+        run: echo "⛳️ This job's status is ${{ job.status }}."
