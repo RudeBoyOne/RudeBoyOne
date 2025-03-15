@@ -1,12 +1,1 @@
-# Ignorar todo o conteúdo do diretório
-/*
-
-# Não ignorar o subdiretório docs específico
-!/docs/
-
-# Não ignorar o subdiretório my-portifolio específico
-!/my-portifolio/
-
-!package-lock.json
-
-!package.json
+docs/

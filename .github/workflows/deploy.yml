@@ -19,6 +19,25 @@ jobs:
         with:
           ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
 
+      - name: 🔧 Install Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: "20"
+
+      - name: 📦 Install Angular CLI
+        run: |
+          npm install -g @angular/cli
+
+      - name: 📦 Install dependencies
+        run: |
+          cd my-portifolio
+          npm ci
+
+      - name: 🛠 Build application
+        run: |
+          cd my-portifolio
+          ng build --output-path ../docs/
+
       - name: 📂 Sync files
         run: |
           rsync -avz --delete \
@@ -26,5 +45,6 @@ jobs:
             --exclude '${{ secrets.SUB_DOMAIN_PATH }}' \
             -e "ssh -o StrictHostKeyChecking=no -p ${{ secrets.SSH_PORT }}" \
             ./docs/ ${{ secrets.SERVER_USER }}@${{ secrets.SERVER_NAME }}:${{ secrets.DEPLOY_PATH }}
+
       - name: 🍏 Job status
         run: echo "⛳️ This job's status is ${{ job.status }}."
