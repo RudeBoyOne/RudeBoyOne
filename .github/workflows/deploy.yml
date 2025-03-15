@@ -42,7 +42,7 @@ jobs:
         run: |
           rsync -avz --delete \
             --exclude '.htaccess' \
-            --exclude '${{ secrets.SUB_DOMAIN_PATH }}' \
+            --exclude "${{ secrets.SUB_DOMAIN_PATH }}" \
             -e "ssh -o StrictHostKeyChecking=no -p ${{ secrets.SSH_PORT }}" \
             ./docs/ ${{ secrets.SERVER_USER }}@${{ secrets.SERVER_NAME }}:${{ secrets.DEPLOY_PATH }}
 
