@@ -1,0 +1,11 @@
+.custom-height-width { 
+    width: 100%;
+}
+
+
+@media (min-width: 576px) {
+    .custom-height-width {
+        height: 90%;
+        width: 35%;
+    }
+}
