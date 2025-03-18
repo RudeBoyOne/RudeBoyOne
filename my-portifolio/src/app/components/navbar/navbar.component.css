@@ -37,7 +37,7 @@ nav {
 }
 
 /* Mostra a navbar mobile na versão mobile */
-@media (max-width: 375px) {
+@media (max-width: 576px) {
     .navbar-desktop {
         display: none;
     }
