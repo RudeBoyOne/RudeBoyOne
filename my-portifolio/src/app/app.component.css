@@ -3,7 +3,7 @@
 }
 
 
-@media (min-width: 576px) {
+@media (min-width: 992px) {
     .custom-height-width {
         height: 90%;
         width: 35%;

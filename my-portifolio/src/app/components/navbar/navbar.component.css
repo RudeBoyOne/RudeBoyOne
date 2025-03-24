@@ -12,6 +12,11 @@ nav {
     background-color: transparent !important;
 }
 
+i {
+    color: var(--cinza-azulado);
+    font-size: 2.0em;
+}
+
 #myImage {
     /* width: 100px; */
     border-radius: 50%;
@@ -37,7 +42,7 @@ nav {
 }
 
 /* Mostra a navbar mobile na versão mobile */
-@media (max-width: 576px) {
+@media (max-width: 992px) {
     .navbar-desktop {
         display: none;
     }
