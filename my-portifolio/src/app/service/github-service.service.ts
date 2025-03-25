@@ -5,22 +5,20 @@ import { repository } from './models/repositoryModel';
 import { user } from './models/userModel';
 
 @Injectable({
-  providedIn: 'root'
+    providedIn: 'root'
 })
 export class GithubServiceService {
 
-  private readonly baseUrl: string = 'https://api.github.com/users/RudeBoyOne'
+    private readonly baseUrl: string = 'https://api.github.com/users/RudeBoyOne'
 
-  constructor(
-    private http: HttpClient
-  ){}
+    constructor( private http: HttpClient ) {}
 
-  findUser(): Observable<user> {
-    return this.http.get<user>(this.baseUrl);
-  }
+    findUser(): Observable<user> {
+        return this.http.get<user>(this.baseUrl);
+    }
 
-  findAllRepositories(): Observable<repository[]> {
-    return this.http.get<repository[]>(`${this.baseUrl}/repos`);
-  }
+    findAllRepositories(): Observable<repository[]> {
+        return this.http.get<repository[]>(`${this.baseUrl}/repos`);
+    }
 
 }
