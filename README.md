@@ -14,8 +14,7 @@ public class SobreMim {
         "FATEC - Desenvolvimento de Software Multiplataforma",
         "CTD - Certified Tech Developer - Digital House", 
         "ONE - Oracle Next Education - Oracle e Alura", 
-        "ESR - Especialista Spring Rest - AlgaWorks", 
-        "Escola da Nuvem - AWS"
+        "ESR - Especialista Spring Rest - AlgaWorks"
   };
   Certificacoes[] badges = {
         "Linux Essentials - Linux Professional Institute (LPI)",
@@ -24,29 +23,6 @@ public class SobreMim {
   String local = "São Paulo/SP";
 }
 ```
-
-### :rocket: Minhas Skills
-
-#### Linguagens, frameworks, bibliotecas:
-<img align="left" width="50" height="50"  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original-wordmark.svg" />
-<img align="left" width="50" height="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" />
-<img align="left" width="50" height="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-plain.svg" />
-<img align="left" width="50" height="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg"/>
-<img align="left" width="50" height="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-plain.svg" />
-<img align="left" width="50" height="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
-<img align="left" width="50" height="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain-wordmark.svg" />
-<img width="50" height="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain-wordmark.svg" />
-
-</br>
-
-#### DevOps:
-<img align="left" width="50" height="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" />
-<img align="left" width="50" height="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" />
-<img align="left" width="50" height="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg"/>
-<img align="left" width="50" height="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"/>
-<img width="50" height="50"src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gitlab/gitlab-original.svg"/>
- 
- </br>
  
 #### Estatísticas GitHub:
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=RudeBoyOne&show_icons=true&theme=dark)
