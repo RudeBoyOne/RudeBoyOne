@@ -19,7 +19,8 @@ public class SobreMim {
   Certificacoes[] badges = {
         "Linux Essentials - Linux Professional Institute (LPI)",
         "Certified Cloud Practitioner - AWS"
-  }
+  };
+  String workIn = "BrickUp";
   String local = "São Paulo/SP";
 }
 ```
