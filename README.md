@@ -24,7 +24,6 @@ public class SobreMim {
 }
 ```
  
-#### Estatísticas GitHub:
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=RudeBoyOne&show_icons=true&theme=dark)
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=RudeBoyOne&layout=compact&theme=dark)
 
