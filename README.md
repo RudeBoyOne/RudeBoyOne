@@ -30,5 +30,5 @@ public class SobreMim {
 </br>
 
 #### :earth_americas: &nbsp;Onde me encontrar:
-[![Meu Linkedin](https://img.shields.io/badge/-Lucas_Ferreira_Nogueira-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/lucas-ferreira-nogueira/)](https://www.linkedin.com/in/lucas-ferreira-nogueira/)
-[![Outlook Badge](https://img.shields.io/badge/lucas.ferreiranogueira@outlook.com-0078D4?style=flat-square&logo=microsoft-outlook&logoColor=white)](mailto:lucas.ferreiranogueira@outlook.com)
+[![Meu Linkedin](https://img.shields.io/badge/-Lucas_Ferreira_Nogueira-blue?style=plastic&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/lucas-ferreira-nogueira/)](https://www.linkedin.com/in/lucas-ferreira-nogueira/)
+[![Email Badge]([https://img.shields.io/badge/dev@lucasfncode.com.br-0078D4?style=plastic&logo=microsoft-outlook&logoColor=white](https://img.shields.io/badge/dev@lucasfncode.com.br-0078D4?style=plastic&logo=mailboxdotorg&logoColor=white)](mailto:dev@lucasfncode.com.br)
