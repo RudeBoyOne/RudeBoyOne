@@ -2,19 +2,20 @@
 
 <!-- <img align="right" width="200" height="180" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" /> -->
 
-```js
+```java
 import com.github.domain.Desenvolvedor;
 
 public class SobreMim {
   String nome = "Lucas Ferreira Nogueira";
   int idade = 30;
   Desenvolvedor area = Desenvolvedor.Backend;
-  String[] coursesAndJobs = {
+  String[] courses = {
+        "UNIVESP - Engenharia da Computação",
         "FATEC - Desenvolvimento de Software Multiplataforma",
         "CTD - Certified Tech Developer - Digital House", 
         "ONE - Oracle Next Education - Oracle e Alura", 
         "ESR - Especialista Spring Rest - AlgaWorks", 
-        "Escola da Nuvem - AWS
+        "Escola da Nuvem - AWS"
   };
   Certificacoes[] badges = {
         "Linux Essentials - Linux Professional Institute (LPI)",
