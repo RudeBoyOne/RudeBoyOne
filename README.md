@@ -3,12 +3,12 @@
 <!-- <img align="right" width="200" height="180" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" /> -->
 
 ```java
-import com.github.domain.Desenvolvedor;
+import com.github.domain;
 
 public class AboutMe {
   String name = "Lucas Ferreira Nogueira";
   int age = 31;
-  Desenvolvedor position = Desenvolvedor.Backend;
+  Developer position = Developer.Backend;
   String[] courses = [
         "UNIVESP - Engenharia da Computação",
         "FATEC - Desenvolvimento de Software Multiplataforma",
