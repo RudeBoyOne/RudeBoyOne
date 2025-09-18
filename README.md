@@ -5,7 +5,7 @@
 ```java
 import com.github.domain.Desenvolvedor;
 
-public class SobreMim {
+public class AboutMe {
   String name = "Lucas Ferreira Nogueira";
   int age = 31;
   Desenvolvedor position = Desenvolvedor.Backend;
