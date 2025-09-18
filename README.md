@@ -6,9 +6,9 @@
 import com.github.domain.Desenvolvedor;
 
 public class SobreMim {
-  String nome = "Lucas Ferreira Nogueira";
-  int idade = 30;
-  Desenvolvedor area = Desenvolvedor.Backend;
+  String name = "Lucas Ferreira Nogueira";
+  int age = 31;
+  Desenvolvedor position = Desenvolvedor.Backend;
   String[] courses = {
         "UNIVESP - Engenharia da Computação",
         "FATEC - Desenvolvimento de Software Multiplataforma",
@@ -16,11 +16,11 @@ public class SobreMim {
         "ONE - Oracle Next Education - Oracle e Alura", 
         "ESR - Especialista Spring Rest - AlgaWorks"
   };
-  Certificacoes[] badges = {
+  Certifications[] badges = {
         "Linux Essentials - Linux Professional Institute (LPI)",
         "Certified Cloud Practitioner - AWS"
   };
-  String workIn = "BrickUp";
+  String workingOn = "BrickUp";
   String local = "São Paulo/SP";
 }
 ```
