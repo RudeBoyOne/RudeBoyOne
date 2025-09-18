@@ -17,14 +17,13 @@ public class AboutMe {
         "ESR - Especialista Spring Rest - AlgaWorks"
   ];
   Certifications[] badges = [
-        "Linux Essentials - Linux Professional Institute (LPI)",
-        "Certified Cloud Practitioner - AWS"
+        LPI.LinuxEssentials,
+        AWS.CertifiedCloudPractitioner
   ];
   String workingOn = "BrickUp";
   String local = "São Paulo/SP";
 }
 ```
-
 </br>
 
 #### :earth_americas: &nbsp;Onde me encontrar:
