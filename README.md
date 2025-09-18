@@ -9,17 +9,17 @@ public class AboutMe {
   String name = "Lucas Ferreira Nogueira";
   int age = 31;
   Desenvolvedor position = Desenvolvedor.Backend;
-  String[] courses = {
+  String[] courses = [
         "UNIVESP - Engenharia da Computação",
         "FATEC - Desenvolvimento de Software Multiplataforma",
         "CTD - Certified Tech Developer - Digital House", 
         "ONE - Oracle Next Education - Oracle e Alura", 
         "ESR - Especialista Spring Rest - AlgaWorks"
-  };
-  Certifications[] badges = {
+  ];
+  Certifications[] badges = [
         "Linux Essentials - Linux Professional Institute (LPI)",
         "Certified Cloud Practitioner - AWS"
-  };
+  ];
   String workingOn = "BrickUp";
   String local = "São Paulo/SP";
 }
