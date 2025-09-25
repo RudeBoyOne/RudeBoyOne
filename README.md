@@ -3,7 +3,7 @@
 <!-- <img align="right" width="200" height="180" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" /> -->
 
 ```java
-import com.github.domain;
+package com.github.domain.about;
 
 public class AboutMe {
   String name = "Lucas Ferreira Nogueira";
