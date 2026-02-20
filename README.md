@@ -7,7 +7,7 @@ package com.github.domain.about;
 
 public class AboutMe {
   String name = "Lucas Ferreira Nogueira";
-  int age = 31;
+  int age = 32;
   Developer position = Developer.Backend;
   String[] courses = [
         "UNIVESP - Engenharia da Computação",
