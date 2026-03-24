@@ -2,7 +2,7 @@
 
 <!-- <img align="right" width="200" height="180" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" /> -->
 
-```java
+```js
 package com.github.domain.about;
 
 public class AboutMe {
