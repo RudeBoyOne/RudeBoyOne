@@ -16,7 +16,7 @@ public class AboutMe {
         LPI.LinuxEssentials,
         AWS.CertifiedCloudPractitioner
   ];
-  String workingOn = "BrickUp";
+  String workingOn = "Itaú";
   String local = "São Paulo/SP";
 }
 ```
